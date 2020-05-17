@@ -291,12 +291,6 @@
 		max-width: 700px;
 		animation-name:zoom;
 		animation-duration:1.5s;
-		-webkit-animation-name: zoom;
-		-webkit-animation-duration: 1.5s;
-	}
-	@-webkit-keyframes zoom {
-		from {-webkit-transform:scale(0)} 
-		to {-webkit-trasform:scale(1)}
 	}
 	@keyfames zoom{
 		from{transform:scale(0)}
