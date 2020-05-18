@@ -79,7 +79,7 @@ function playPauseSlides(){
 			alert(str[i].name + " cant't be empty");
 			return false;
 		}
-		if(str[i].type=="text" && str[i].name!="username"){
+		if(str[i].type=="text"){
 			var name=str[i].value;
 			for(var j=0; j<name.length;j++){
 			if(name[j]<=9 && name[j]>=0)
@@ -102,14 +102,6 @@ function playPauseSlides(){
 		alert("Invalid Mobile Number");
 		return false;
 		}		
-		
-		var p1=document.myform.password.value;
-		var p2=document.myform.password2.value;
-		if(p1!=p2)
-		{
-		alert("Password mismatched. Please write same passwords in both fields.");
-		return false;
-		}
 		
 		var res=confirm("Are you sure you want to submit?");
 			return res;
